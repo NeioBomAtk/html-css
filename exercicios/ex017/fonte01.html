@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+            /* lighter normal bold bolder */
+        }
+       /* h1. h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }*/
+        h1 {
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'work Sans' sns-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, sapiente. Ex laudantium cupiditate, quasi impedit ad rem ab est consequuntur commodi quae porro enim sit, omnis vitae quibusdam ipsa? Consequuntur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eius ad quis expedita eum rerum tempore vero pariatur facilis nobis, quo ex reiciendis recusandae minima quod non ratione ipsa mollitia!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum ullam nulla eaque, tenetur, officia ut cum nam rerum repellat illo obcaecati distinctio, atque minus sunt maiores aut magnam ipsum rem.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quibusdam nesciunt! Autem maiores optio possimus necessitatibus officiis, consequatur quos temporibus excepturi vero voluptatum enim laborum cupiditate non, quas molestiae iste!</p>
+</body>
+</html>
